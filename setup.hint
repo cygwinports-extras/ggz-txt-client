@@ -1,0 +1,7 @@
+category: Games
+requires: cygwin libggz2 libggzcore9 libggzmod4 libintl8 libreadline6
+sdesc: "GGZ Gaming Zone text client.
+ldesc: "The text client package comes with ggz-txt, a very small 
+console-based core client, and even a console-based Tic-Tac-Toe game 
+client named TTTXT. The client is scriptable, and supports chatting and 
+playing games."

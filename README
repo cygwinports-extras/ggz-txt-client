@@ -1,0 +1,78 @@
+ggz-txt-client
+------------------------------------------
+GGZ Gaming Zone text client.
+
+The text client package comes with ggz-txt, a very small console-based 
+core client, and even a console-based Tic-Tac-Toe game client named 
+TTTXT. The client is scriptable, and supports chatting and playing 
+games.
+
+Runtime requirements:
+  cygwin-1.5.25-11
+  libggz2-0.0.14.1-1
+  libggzcore9-0.0.14.1-1
+  libggzmod4-0.0.14.1-1
+  libintl8-0.15-1
+  libreadline6-5.2.7-9
+
+Build requirements:
+(besides corresponding -devel packages)
+  autoconf2.5-2.61-1
+  automake1.10-1.10.1-1
+  binutils-20060817-1
+  cygport-0.3.11-1
+  gawk-3.1.6-1
+  gcc-core-3.4.4-3
+  libtool-2.2.2-2
+  make-3.81-1
+  sed-4.1.5-2
+
+Canonical website:
+  http://www.ggzgamingzone.org/packages/
+
+Canonical download:
+  ftp://ftp.ggzgamingzone.org/pub/ggz/
+
+-------------------------------------------
+
+Build instructions:
+  unpack ggz-txt-client-0.0.14.1-X-src.tar.bz2
+    if you use setup to install this src package, it will be
+	 unpacked under /usr/src automatically
+  cd /usr/src
+  cygport ./ggz-txt-client-0.0.14.1-X.cygport all
+
+This will create:
+  /usr/src/ggz-txt-client-0.0.14.1-X-src.tar.bz2
+  /usr/src/ggz-txt-client-0.0.14.1-X.tar.bz2
+
+-------------------------------------------
+
+Files included in the binary package:
+
+  /etc/ggz/games/tttxt.dsc
+  /etc/postinstall/ggz-txt-client.sh
+  /etc/preremove/ggz-txt-client.sh
+  /usr/bin/ggz-txt.exe
+  /usr/lib/ggz/tttxt.exe
+  /usr/share/applications/ggz-txt.desktop
+  /usr/share/doc/ggz-txt-client-0.0.14.1/AUTHORS
+  /usr/share/doc/ggz-txt-client-0.0.14.1/COPYING
+  /usr/share/doc/ggz-txt-client-0.0.14.1/ChangeLog
+  /usr/share/doc/ggz-txt-client-0.0.14.1/INSTALL
+  /usr/share/doc/ggz-txt-client-0.0.14.1/NEWS
+  /usr/share/doc/ggz-txt-client-0.0.14.1/README
+  /usr/share/doc/ggz-txt-client-0.0.14.1/TODO
+  /usr/share/locale/de/LC_MESSAGES/ggz-txt.mo
+  /usr/share/man/man6/ggz-txt.6.gz
+
+------------------
+
+Port Notes:
+
+----- version 0.0.14.1-1 -----
+Initial release for Cygwin.
+
+
+Cygwin port maintained by:
+http://cygwinports.dotsrc.org/
